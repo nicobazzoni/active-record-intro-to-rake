@@ -85,6 +85,7 @@ desc 'outputs hello to the terminal'
 task :hello do
   puts "hello from Rake!"
 end
+
 ```
 
 Now, if we run `rake -T` in the terminal, we should see the following:
